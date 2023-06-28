@@ -1,0 +1,81 @@
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: 
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: MAIL FO
+Server: 501 Invalid parameter
+Client: MAIL FROM:<teacher@nuce.vn>
+Server: 250 Sender "teacher@nuce.vn" OK...
+Client: RCPT TO:<hung@nuce.vn>
+Server: 250 Recipient "hung@nuce.vn" OK...
+Client: DATATATA
+Server: 500 Unknown command
+Client: DATA
+Server: 250 Message accepted for delivery.
+Client: QUIT
+Server: 221 Good bye
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: 
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: 
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: EHLO [IPv6:::ffff:127.0.0.1]
+Server: 500 Unknown command
+Client: HELO [IPv6:::ffff:127.0.0.1]
+Server: 250 Welcome to SMTP Server v1.0
+Client: MAIL FROM:<teacher@nuce.vn>
+Server: 250 Sender "teacher@nuce.vn" OK...
+Client: RCPT TO:<hung@nuce.vn>
+Server: 250 Recipient "hung@nuce.vn" OK...
+Client: DATA
+Server: 250 Message accepted for delivery.
+Client: QUIT
+Server: 221 Good bye
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: 
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: 
+--- Session end ---
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: EHLO [IPv6:::ffff:127.0.0.1]
+Server: 500 Unknown command
+Client: HELO [IPv6:::ffff:127.0.0.1]
+Server: 250 Welcome to SMTP Server v1.0
+Client: MAIL FROM:<teacher@nuce.vn>
+Server: 250 Sender "teacher@nuce.vn" OK...
+Client: RCPT TO:<tuan@nuce.vn>
+Server: 250 Recipient "tuan@nuce.vn" OK...
+Client: DATA
+Server: 250 Message accepted for delivery.
+Client: QUIT
+Server: 221 Good bye
+--- Session end ---

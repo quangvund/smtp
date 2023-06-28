@@ -1,0 +1,13 @@
+--- Session start ---
+Remote IP: 127.0.0.1
+Time: 
+Server: 220 Simple SMTP Server v1.0 is ready
+Client: MAIL FROM:<tuan@nuce.vn>
+Server: 250 Sender "tuan@nuce.vn" OK...
+Client: RCPT TO:<hung@nuce.vn>
+Server: 250 Recipient "hung@nuce.vn" OK...
+Client: DATA
+Server: 250 Message accepted for delivery.
+Client: QUIT
+Server: 221 Good bye
+--- Session end ---

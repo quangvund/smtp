@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SMTPServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="smtpserver/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SMTPServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lws2_32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SMTPServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lws2_32" />
+		</Linker>
+		<Unit filename="cli.cpp" />
+		<Unit filename="cli.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="random.cpp" />
+		<Unit filename="random.h" />
+		<Unit filename="servercli.cpp">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="servercli.h">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="serverconfig.cpp" />
+		<Unit filename="serverconfig.h" />
+		<Unit filename="session.cpp" />
+		<Unit filename="session.h" />
+		<Unit filename="smtpserver.cpp">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="smtpserver.h">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="smtpserverconfig.cpp">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="smtpserverconfig.h">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="smtpsession.cpp">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="smtpsession.h">
+			<Option virtualFolder="smtpserver/" />
+		</Unit>
+		<Unit filename="socket.cpp" />
+		<Unit filename="socket.h" />
+		<Unit filename="tcpserver.cpp" />
+		<Unit filename="tcpserver.h" />
+		<Unit filename="tcpserversocket.cpp" />
+		<Unit filename="tcpserversocket.h" />
+		<Unit filename="tcpsocket.cpp" />
+		<Unit filename="tcpsocket.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

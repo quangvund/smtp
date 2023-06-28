@@ -1,0 +1,700 @@
+# depslib dependency file v1.0
+1585810100 source:e:\network programming\smtpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1585810079 e:\network programming\smtpserver\cli.h
+	<cstdint>
+	<string>
+
+1588774584 source:e:\network programming\smtpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1585563645 source:e:\network programming\smtpserver\random.cpp
+	"random.h"
+	<string>
+	<ctime>
+
+1585563685 e:\network programming\smtpserver\random.h
+	<string>
+
+1585998758 source:e:\network programming\smtpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1588772141 e:\network programming\smtpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1588418131 source:e:\network programming\smtpserver\session.cpp
+	"session.h"
+
+1588418119 e:\network programming\smtpserver\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1586256327 e:\network programming\smtpserver\tcpsocket.h
+	"socket.h"
+
+1583727598 e:\network programming\smtpserver\socket.h
+	<string>
+	<exception>
+
+1588919259 source:e:\network programming\smtpserver\smtpserver.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+	"smtpserver.h"
+	"random.h"
+
+1588773502 e:\network programming\smtpserver\smtpserver.h
+	<mutex>
+	<fstream>
+	"tcpserver.h"
+	"smtpsession.h"
+	"smtpserverconfig.h"
+
+1588775852 e:\network programming\smtpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1585316080 e:\network programming\smtpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1588576050 e:\network programming\smtpserver\smtpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+	"smtpserverconfig.h"
+
+1588772025 e:\network programming\smtpserver\smtpserverconfig.h
+	"serverconfig.h"
+
+1588772120 source:e:\network programming\smtpserver\smtpserverconfig.cpp
+	<fstream>
+	<cstring>
+	"smtpserverconfig.h"
+
+1588920782 source:e:\network programming\smtpserver\smtpsession.cpp
+	<cstring>
+	<algorithm>
+	<fstream>
+	<iostream>
+	"smtpsession.h"
+	"smtpserverconfig.h"
+	"random.h"
+
+1583507332 source:e:\network programming\smtpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1588774400 source:e:\network programming\smtpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1585203401 source:e:\network programming\smtpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1586256364 source:e:\network programming\smtpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1588775065 source:e:\network programming\smtpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1588416267 e:\network programming\smtpserver\servercli.h
+	"cli.h"
+	"smtpserver.h"
+	<windows.h>
+
+1585810100 source:e:\network_programming\smtpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1585810079 e:\network_programming\smtpserver\cli.h
+	<cstdint>
+	<string>
+
+1588774584 source:e:\network_programming\smtpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1622520840 e:\network_programming\smtpserver\servercli.h
+	"cli.h"
+	"smtpserver.h"
+	<windows.h>
+
+1588773502 e:\network_programming\smtpserver\smtpserver.h
+	<mutex>
+	<fstream>
+	"tcpserver.h"
+	"smtpsession.h"
+	"smtpserverconfig.h"
+
+1588775852 e:\network_programming\smtpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1585316080 e:\network_programming\smtpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1586256327 e:\network_programming\smtpserver\tcpsocket.h
+	"socket.h"
+
+1583727598 e:\network_programming\smtpserver\socket.h
+	<string>
+	<exception>
+
+1588418119 e:\network_programming\smtpserver\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1588772141 e:\network_programming\smtpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1588576050 e:\network_programming\smtpserver\smtpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+	"smtpserverconfig.h"
+
+1588772025 e:\network_programming\smtpserver\smtpserverconfig.h
+	"serverconfig.h"
+
+1585563645 source:e:\network_programming\smtpserver\random.cpp
+	"random.h"
+	<string>
+	<ctime>
+
+1585563685 e:\network_programming\smtpserver\random.h
+	<string>
+
+1585998758 source:e:\network_programming\smtpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1588418131 source:e:\network_programming\smtpserver\session.cpp
+	"session.h"
+
+1588772120 source:e:\network_programming\smtpserver\smtpserverconfig.cpp
+	<fstream>
+	<cstring>
+	"smtpserverconfig.h"
+
+1588920782 source:e:\network_programming\smtpserver\smtpsession.cpp
+	<cstring>
+	<algorithm>
+	<fstream>
+	<iostream>
+	"smtpsession.h"
+	"smtpserverconfig.h"
+	"random.h"
+
+1583507332 source:e:\network_programming\smtpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1588774400 source:e:\network_programming\smtpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1585203401 source:e:\network_programming\smtpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1586256364 source:e:\network_programming\smtpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1622520523 source:e:\network_programming\smtpserver\smtpserver.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+	"smtpserver.h"
+	"random.h"
+
+1590281857 source:e:\network_programming\smtpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1585810100 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1585810079 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\cli.h
+	<cstdint>
+	<string>
+
+1588774584 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\main.cpp
+	<iostream>
+	"servercli.h"
+
+1634878731 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\servercli.h
+	"cli.h"
+	"smtpserver.h"
+	<windows.h>
+
+1588773502 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\smtpserver.h
+	<mutex>
+	<fstream>
+	"tcpserver.h"
+	"smtpsession.h"
+	"smtpserverconfig.h"
+
+1588775852 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1585316080 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1586256327 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\tcpsocket.h
+	"socket.h"
+
+1583727598 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\socket.h
+	<string>
+	<exception>
+
+1588418119 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1588772141 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1634884246 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\smtpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+	"smtpserverconfig.h"
+
+1588772025 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\smtpserverconfig.h
+	"serverconfig.h"
+
+1585563645 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\random.cpp
+	"random.h"
+	<string>
+	<ctime>
+
+1585563685 d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\random.h
+	<string>
+
+1585998758 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1588418131 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\session.cpp
+	"session.h"
+
+1588772120 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\smtpserverconfig.cpp
+	<fstream>
+	<cstring>
+	"smtpserverconfig.h"
+
+1634884263 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\smtpsession.cpp
+	<cstring>
+	<algorithm>
+	<fstream>
+	<iostream>
+	"smtpsession.h"
+	"smtpserverconfig.h"
+	"random.h"
+
+1583507332 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1588774400 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1585203401 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1586256364 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1634877779 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1634877958 source:d:\my drive\teaching\lap trinh he thong mang\2021\lap trinh server\smtpserver\smtpserver.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+	"smtpserver.h"
+	"random.h"
+
+1648535401 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1647603059 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\cli.h
+	<string>
+
+1585563645 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\random.cpp
+	"random.h"
+	<string>
+	<ctime>
+
+1585563685 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\random.h
+	<string>
+
+1650541218 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1650538096 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1650541001 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\session.cpp
+	"session.h"
+
+1650540999 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1648537735 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\tcpsocket.h
+	"socket.h"
+
+1647662317 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\socket.h
+	<string>
+	<exception>
+
+1650541686 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\smtpserverconfig.cpp
+	<fstream>
+	<iostream>
+	"smtpserverconfig.h"
+
+1650543864 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\smtpserverconfig.h
+	"serverconfig.h"
+
+1650543710 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\main.cpp
+	"servercli.h"
+
+1650539341 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\servercli.h
+	"cli.h"
+	"smtpserver.h"
+	<windows.h>
+
+1650544868 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\smtpserver.h
+	"tcpserver.h"
+	"smtpsession.h"
+	"smtpserverconfig.h"
+
+1650550073 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1647322491 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1650539463 i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\smtpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+	"smtpserverconfig.h"
+
+1647662320 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1650550071 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+
+1649203954 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1650543033 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1650549330 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\smtpserver.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstring>
+	"smtpserver.h"
+	"random.h"
+
+1650541050 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\smtpsession.cpp
+	<cstring>
+	<algorithm>
+	<fstream>
+	<iostream>
+	"smtpsession.h"
+	"smtpserverconfig.h"
+	"random.h"
+
+1650544829 source:i:\my drive\teaching\lap trinh he thong mang\examples\smtpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1648535401 source:c:\users\vu227\downloads\smtpserver\smtpserver\cli.cpp
+	<iostream>
+	<sstream>
+	"cli.h"
+
+1647603059 c:\users\vu227\downloads\smtpserver\smtpserver\cli.h
+	<string>
+
+1650543710 source:c:\users\vu227\downloads\smtpserver\smtpserver\main.cpp
+	"servercli.h"
+
+1650539341 c:\users\vu227\downloads\smtpserver\smtpserver\servercli.h
+	"cli.h"
+	"smtpserver.h"
+	<windows.h>
+
+1650544868 c:\users\vu227\downloads\smtpserver\smtpserver\smtpserver.h
+	"tcpserver.h"
+	"smtpsession.h"
+	"smtpserverconfig.h"
+
+1650550073 c:\users\vu227\downloads\smtpserver\smtpserver\tcpserver.h
+	"tcpserversocket.h"
+	"session.h"
+
+1647322491 c:\users\vu227\downloads\smtpserver\smtpserver\tcpserversocket.h
+	"tcpsocket.h"
+
+1648537735 c:\users\vu227\downloads\smtpserver\smtpserver\tcpsocket.h
+	"socket.h"
+
+1647662317 c:\users\vu227\downloads\smtpserver\smtpserver\socket.h
+	<string>
+	<exception>
+
+1650540999 c:\users\vu227\downloads\smtpserver\smtpserver\session.h
+	"tcpsocket.h"
+	"serverconfig.h"
+
+1650538096 c:\users\vu227\downloads\smtpserver\smtpserver\serverconfig.h
+	<string>
+	<unordered_map>
+
+1650539463 c:\users\vu227\downloads\smtpserver\smtpserver\smtpsession.h
+	<vector>
+	"tcpserversocket.h"
+	"session.h"
+	"smtpserverconfig.h"
+
+1650543864 c:\users\vu227\downloads\smtpserver\smtpserver\smtpserverconfig.h
+	"serverconfig.h"
+
+1585563645 source:c:\users\vu227\downloads\smtpserver\smtpserver\random.cpp
+	"random.h"
+	<string>
+	<ctime>
+
+1585563685 c:\users\vu227\downloads\smtpserver\smtpserver\random.h
+	<string>
+
+1650544829 source:c:\users\vu227\downloads\smtpserver\smtpserver\servercli.cpp
+	<iostream>
+	"servercli.h"
+
+1687881003 source:c:\users\vu227\downloads\smtpserver\smtpserver\serverconfig.cpp
+	<cstring>
+	<iostream>
+	"serverconfig.h"
+
+1687881093 source:c:\users\vu227\downloads\smtpserver\smtpserver\session.cpp
+	"session.h"
+
+1650549330 source:c:\users\vu227\downloads\smtpserver\smtpserver\smtpserver.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstring>
+	"smtpserver.h"
+	"random.h"
+
+1650541686 source:c:\users\vu227\downloads\smtpserver\smtpserver\smtpserverconfig.cpp
+	<fstream>
+	<iostream>
+	"smtpserverconfig.h"
+
+1650550221 source:c:\users\vu227\downloads\smtpserver\smtpserver\smtpsession.cpp
+	<cstring>
+	<algorithm>
+	<fstream>
+	<iostream>
+	"smtpsession.h"
+	"smtpserverconfig.h"
+	"random.h"
+
+1687881114 source:c:\users\vu227\downloads\smtpserver\smtpserver\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1687881186 source:c:\users\vu227\downloads\smtpserver\smtpserver\tcpserversocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpserversocket.h"
+
+1687881218 source:c:\users\vu227\downloads\smtpserver\smtpserver\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+	"tcpsocket.h"
+
+1687881143 source:c:\users\vu227\downloads\smtpserver\smtpserver\tcpserver.cpp
+	<thread>
+	<thread>
+	<iostream>
+	"tcpserver.h"
+

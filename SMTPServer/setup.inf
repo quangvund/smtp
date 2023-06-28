@@ -1,0 +1,47 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Fri Oct 22 13:45:53 2021           **
+;**                                                                **
+;** MakeCAB Version: 5.00                                 **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,SMTPServer.cab
+[file list]
+1,1,cli.cpp,3402
+1,1,main.cpp,189
+1,1,random.cpp,723
+1,1,servercli.cpp,1752
+1,1,serverconfig.cpp,2694
+1,1,session.cpp,275
+1,1,smtpserver.cpp,5523
+1,1,smtpserverconfig.cpp,1411
+1,1,smtpsession.cpp,2100
+1,1,socket.cpp,6317
+1,1,tcpserver.cpp,2889
+1,1,tcpserversocket.cpp,2854
+1,1,tcpsocket.cpp,9982
+1,1,cli.h,1410
+1,1,random.h,229
+1,1,servercli.h,716
+1,1,serverconfig.h,2365
+1,1,session.h,757
+1,1,smtpserver.h,863
+1,1,smtpserverconfig.h,801
+1,1,smtpsession.h,1433
+1,1,socket.h,2326
+1,1,tcpserver.h,1135
+1,1,tcpserversocket.h,907
+1,1,tcpsocket.h,1545
+1,1,SMTPServer.cbp,2089
+1,1,SMTPServer.depend,9976
+1,1,SMTPServer.layout,4122
+1,1,smtp.conf,56
+1,1,smtpaccount.conf,58
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Fri Oct 22 13:45:53 2021           **
+;**                                                                **
+;*** END ************************************************************
